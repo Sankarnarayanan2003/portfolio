@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sankarnarayanan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css ">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sankarnarayanan K - Portfolio</title>
+        <link href="https://cdn.jsdelivr.net/npm/font-awesome@6.0.0-beta3/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+    
+    <!-----nav menu-->
+    <div class="container">
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">Sankarnarayanan</p>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            
+        <!------Dark mode-------->
+        <div class="mode">
+            <div class="moon-sun" id="toggle-switch">
+                <i class="fa fa-moon" id="moon"></i>
+                <i class="fa fa-sun" id="sun"></i>
+            </div>
+        </div>
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+        </nav>
+    
+    <!---------Main ----------->>
+    <main class="wrapper">
+        <section class="featured-box" id="home">
+            <div class="featured-image">
+                <div class="image">
+                    <img src="images/images1-removebg-preview.png" alt="profile">
+                </div>
+            </div>
+            <div class="featured-text">
+                <div class="hello">
+                    <p>Hello, I'm</p>
+                </div>
+                <div class="featured-name">
+                    <span class="typedText">Sankarnarayanan K</span>
+                </div>
+                <div class="text-info">
+                    <p>Myself Sankarnarayanan K. I'm a Full Stack Developer!</p>
+                </div>
+                <div class="text-btn">
+                    <button class="btn hire-btn">Hire Me</button>
+                    <a href="Sankarnarayanan.k.docx" download="Sankarnarayanan.CV">
+                        <button class="btn">
+                            Download CV <i class="uil uil-file"></i>
+                        </button>
+                    </a>
+                </div>
+                <div class="social-icons">
+                    <div class="icon_circle"></div>
+                    <div class="icon"><a href="https://www.instagram.com/.itz.suresh.?igsh=MThreTlreDFtdGM4YQ%3D%3D&utm_source=qr"><i class="uil uil-instagram"></i></a></div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/sankarnarayanan16/"><i class="uil uil-linkedin-alt"></i></a></div>
+                    <div class="icon"><a href="https://wa.me/1234567890"><i class="uil uil-whatsapp-alt"></i></a></div>
+                    <div class="icon"><a href="https://github.com/Sankarnarayanan2003"><i class="uil uil-github-alt"></i></a></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+<!---------Updated About Box Section----------->
+<section class="section" id="about">
+    <div class="top-header">
+        <h1>About Me</h1>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <figure class="about-me">
+                        <h2>Full Stack Developer</h2>
+                        <p>My name is Sankarnarayanan! I'm a Full Stack Developer, specializing in building advanced, user-friendly web applications.</p>
+                    </figure>
+                    <button class="about-me-btn">Hire Me</button>
+                </div>
+                <div class="about-col-2">
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <span style="color: blue; font-size: 25px; font-weight: 500;">Web Developer</span><br>
+                        <strong class="strong">Core Competencies:</strong>
+                        <ul>
+                            <li>HTML, CSS, and JavaScript</li>
+                            <li>Responsive Design & Development</li>
+                            <li>Front-End Frameworks (React, Vue.js)</li>
+                            <li>Back-End Development (Node.js, Express)</li>
+                            <li>RESTful API Integration</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h3><span class="highlight">Education</span></h3>
+                        <p>B.Sc. in Physical Education from Ramakrishna Mission Vivekananda Education and Research Institute</p>
+            </div>
+                <div class="tab-contents" id="experience">
+                    <i class="fa-solid fa-medal"></i>
+                    <h3><span class="highlight">Experience</span></h3>
+                    <p>00+ years</p>
+                    <p>Full-Stack Development</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+    <!--------Details Box------------>
+    <section class="section" id="projects">
+        <div class="top-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="project-container">
+            <div class="project-box">
+                <i class="fa-solid fa-briefcase"></i>
+                <h3>Portfolio Website</h3>
+            <label>A complete portfolio website showcasing skills, <br> projects, and contact information.</label>
+            </div>
+            <div class="project-box">
+                <i class="fa-solid fa-bowl-food"></i>
+                <h3>O-F-D-Food Online App</h3>
+                <label>Currently developing an online <br>food ordering application.</label>
+            </div>
+            <div class="project-box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Project 2</h3>
+                <label>Currently developing the MMA Mini Makeup<br>  Artist website using React.js..</label>
+            </div>
+        </div>
+    </section>
+    
+    <!----------Contact box---------------> 
+    <section class="section" id="contact">
+        <div class="top-header">
+            <h1>Let's Work Together</h1>
+            <span>Do you have a project in your mind, contact me here</span>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="contact-info">
+                    <h2>Find Me<i class="uil uil-corner-right-down"></i></h2>
+                    <p><i class="uil uil-envelope"></i>Email:sankarnarayanan0016@gmail.com</p>
+                    <p><i class="uil uil-phone"></i>Phone: 9176086204</p>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-control">
+                    <div class="form-inputs">
+                        <input type="text" class="input-field" placeholder="Your Name">
+                        <input type="text" class="input-field" placeholder="Your Email">
+                    </div>
+                    <div class="text-area">
+                        <input type="text" class="input-subject" placeholder="Subject">
+                        <textarea placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Send<i class="uil uil-message"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-----------Footer--------------> 
+    <footer>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="social-footer-icons">
+                <a href="https://github.com/"><i class="uil uil-github"></i></a>
+                <a href="https://www.linkedin.com/in/"><i class="uil uil-linkedin-alt"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+
+    
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+<script src="main.js"></script>
+
+    
+</body>
+</html>
